@@ -3,18 +3,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package mvc_studentsprovsc;
+import mvc_studentsprovsc.Vista;
 
 /**
  *
  * @author Víctor
  */
+// Main.java
 public class MVC_StudentsProVSC {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Modelo modelo = new Modelo();
+        Vista vista = new Vista();
+        Controlador controlador = new Controlador(modelo, vista);
     }
-    
 }
+
