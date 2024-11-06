@@ -9,14 +9,14 @@ package mvc_studentsprovsc;
  * @author dam2
  */
 
-// Controlador.java
-public class Controlador {
-    private Modelo modelo;
-    private Vista vista;
+// ControladorVSC.java
+public class ControladorVSC {
+    private ModeloVSC modeloVSC;
+    private VistaVSC vistaVSC;
 
-    public Controlador(Modelo modelo, Vista vista) {
-        this.modelo = modelo;
-        this.vista = vista;
+    public ControladorVSC(ModeloVSC modelo, VistaVSC vista) {
+        this.modeloVSC = modelo;
+        this.vistaVSC = vista;
     }
 
     // Aquí puedes agregar métodos para manejar eventos en la vista

@@ -11,10 +11,10 @@ package mvc_studentsprovsc;
 import javax.swing.*;
 import java.awt.*;
 
-public class Vista extends JFrame {
+public class VistaVSC extends JFrame {
     private JLabel labelBienvenida;
 
-    public Vista() {
+    public VistaVSC() {
         setTitle("Students Pro VSA");
         setSize(400, 200); // Tamaño de la ventana
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

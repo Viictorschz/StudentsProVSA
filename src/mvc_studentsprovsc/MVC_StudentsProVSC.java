@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package mvc_studentsprovsc;
-import mvc_studentsprovsc.Vista;
+import mvc_studentsprovsc.VistaVSC;
 
 /**
  *
@@ -12,9 +12,9 @@ import mvc_studentsprovsc.Vista;
 // Main.java
 public class MVC_StudentsProVSC {
     public static void main(String[] args) {
-        Modelo modelo = new Modelo();
-        Vista vista = new Vista();
-        Controlador controlador = new Controlador(modelo, vista);
+        ModeloVSC modelo = new ModeloVSC();
+        VistaVSC vista = new VistaVSC();
+        ControladorVSC controladorVSC = new ControladorVSC(modelo, vista);
     }
 }
 
