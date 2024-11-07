@@ -18,7 +18,7 @@ public class VistaVSC extends JFrame {
         labelBienvenida.setForeground(Color.BLACK); // Color del texto
 
         // Panel personalizado para el fondo
-        FondoPanel fondoPanel = new FondoPanel("E:\\GRADO SUPERIOR 2\\Programacion servicios y procesos\\StudentsProVSA\\imagenes\\fondo.jpg");
+        FondoPanel fondoPanel = new FondoPanel("fondo.jpg");
         fondoPanel.setLayout(new BorderLayout());
         fondoPanel.add(labelBienvenida, BorderLayout.CENTER);
 
