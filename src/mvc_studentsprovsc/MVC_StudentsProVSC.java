@@ -9,12 +9,17 @@ import mvc_studentsprovsc.VistaVSC;
  *
  * @author Víctor
  */
-// Main.java
+/**
+ * Clase principal del proyecto.
+ */
 public class MVC_StudentsProVSC {
     public static void main(String[] args) {
-        ModeloVSC modelo = new ModeloVSC();
-        VistaVSC vista = new VistaVSC();
-        ControladorVSC controladorVSC = new ControladorVSC(modelo, vista);
+        PantallaCarga carga = new PantallaCarga();
+        carga.mostrarYCerrar(() -> {
+            ModeloVSC modelo = new ModeloVSC();
+            VistaVSC vista = new VistaVSC();
+            ControladorVSC controlador = new ControladorVSC(modelo, vista);
+        });
     }
 }
 
