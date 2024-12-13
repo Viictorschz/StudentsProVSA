@@ -12,3 +12,10 @@ Sí es una estructuta funcional MVC con 4 ficheros (desde el controlador lanza q
 Ok label 
 -> Corrige las carencias y en el label inserta una imagen donde "pintes" el look de como sería la ventana principal.
 -> Refactoriza (cambia) los nombres de todas las clases y objetos que uses de forma que sean exclusivos tuyos y del proyecto (en el futuro no evaluaré nada con nombres genéricos automatizados).
+
+
+2º modificación:
+Elimina la imagen (la usará de fondo el el panel priciapl), y debes tener 3 ventanas (la tercera es el JDialog):
+1-> presentación, no redimensionable (tamaño mediano), simulando la carga, y desaparece por tiempo.
+2-> Salta la principal, donde todo el menú es funcional en el sentido de mandar un mensaje por consola, y usar "Alumnado" con una opción configuración con un JDialog modificado. Los aparecen  los alumnos (y un botón o similar para sólo añadir), debe poder cargar los datos en el arranque.
+Todo los métodos y clases documentados.
